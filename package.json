@@ -1,0 +1,11 @@
+{
+  "name": "edicria-mock-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0"
+  }
+}
